@@ -4,7 +4,7 @@ const App = () => {
   return (
     <>
       <NavBar />
-      <p>mua cỏ Ân ơi</p>
+      <p>di mua cỏ Ân ơi</p>
     </>
   );
 };
