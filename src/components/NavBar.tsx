@@ -1,4 +1,6 @@
 import { HStack, Heading, Button } from "@chakra-ui/react";
+import ToggleColorMode from "./ToggleColorMode";
+
 import { AiOutlineDownload } from "react-icons/ai";
 
 const NavBar = () => {
@@ -21,6 +23,7 @@ const NavBar = () => {
         <Button bgColor={"blue.400"} rightIcon={<AiOutlineDownload />}>
           Download CV
         </Button>
+        <ToggleColorMode />
       </HStack>
     </HStack>
   );
