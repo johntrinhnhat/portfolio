@@ -1,0 +1,11 @@
+body,
+html {
+    overflow: hidden;
+    font-family: 'Righteous', cursive;
+}
+
+/* ----------- LOGO ------------- */
+
+.logo {
+    color: #2B6CB0;
+}
