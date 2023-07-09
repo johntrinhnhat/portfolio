@@ -6,6 +6,7 @@ import {
   Divider,
   Box,
 } from "@chakra-ui/react";
+import Hero from "./Hero";
 
 const LayOut = () => {
   return (
@@ -31,10 +32,10 @@ const LayOut = () => {
         </Show>
         <GridItem pl={{ base: "0", lg: "30rem" }} area="main">
           <Box className="main-scroll">
-            {/* <Hero />
-              <Services />
-              <PortfolioGrid />
-              <ContactForm /> */}
+            <Hero />
+            {/* <Services />
+            <PortfolioGrid />
+            <ContactForm /> */}
           </Box>
         </GridItem>
       </Grid>
