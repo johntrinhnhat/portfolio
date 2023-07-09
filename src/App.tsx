@@ -1,10 +1,9 @@
-import NavBar from "./components/NavBar";
+import NavBar from "./components/navBar";
 
 const App = () => {
   return (
     <>
       <NavBar />
-      <p>mua cỏ Ân ơi</p>
     </>
   );
 };
