@@ -9,6 +9,7 @@ import {
 import Hero from "./Hero";
 import Services from "./ServiceGrid";
 import PortfolioGrid from "./PortGrid";
+import ContactForm from "./ContactFrom";
 
 const LayOut = () => {
   return (
@@ -37,7 +38,7 @@ const LayOut = () => {
             <Hero />
             <Services />
             <PortfolioGrid />
-            {/* <ContactForm /> */}
+            <ContactForm />
           </Box>
         </GridItem>
       </Grid>
