@@ -11,6 +11,7 @@ import Services from "./ServiceGrid";
 import PortfolioGrid from "./PortGrid";
 import ContactForm from "./ContactFrom";
 import InfBox from "./InfBox";
+import WeatherBox from "./WeatherBox";
 
 const LayOut = () => {
   return (
@@ -30,7 +31,7 @@ const LayOut = () => {
               <Divider my="2.5rem" />
               {/* <PageLink /> */}
               <Divider my="2.5rem" />
-              {/* <WeatherBox /> */}
+              <WeatherBox />
             </Container>
           </GridItem>
         </Show>
