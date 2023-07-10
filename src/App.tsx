@@ -1,10 +1,11 @@
-import NavBar from "./components/NavBar";
+import LayOut from "./components/LayOut";
+import NavBar from "./components/navBar";
 
 const App = () => {
   return (
     <>
       <NavBar />
-      <p>di mua cỏ Ân ơi</p>
+      <LayOut />
     </>
   );
 };

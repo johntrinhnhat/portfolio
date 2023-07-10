@@ -1,0 +1,108 @@
+body,
+html {
+    overflow: hidden;
+    font-family: 'Righteous', cursive;
+}
+
+/* ----------- LOGO ------------- */
+
+.logo {
+    color: #2B6CB0;
+}
+
+/* ----------- SNOW ------------- */
+
+.SNOW,
+.SNOW:before,
+.SNOW:after {
+    position: absolute;
+    top: -650px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-image:
+        radial-gradient(4px 4px at 100px 50px, #fff, transparent),
+        radial-gradient(6px 6px at 200px 150px, #fff, transparent),
+        radial-gradient(3px 3px at 300px 250px, #fff 50%, transparent),
+        radial-gradient(4px 4px at 400px 350px, #fff 50%, transparent),
+        radial-gradient(6px 6px at 500px 100px, #fff 50%, transparent),
+        radial-gradient(3px 3px at 50px 200px, #fff 50%, transparent),
+        radial-gradient(4px 4px at 150px 300px, #fff 50%, transparent),
+        radial-gradient(6px 6px at 250px 400px, #fff 50%, transparent),
+        radial-gradient(3px 3px at 350px 500px, #fff 50%, transparent);
+    background-size: 650px 650px;
+    animation: SNOW 3s linear infinite;
+    content: "";
+}
+
+.SNOW:after {
+    margin-left: -250px;
+    opacity: 0.5;
+    filter: blur(2px);
+    animation-duration: 6s;
+    animation-direction: reverse;
+}
+
+.SNOW:before {
+    margin-left: -350px;
+    opacity: 0.7;
+    filter: blur(1px);
+    animation-duration: 9s;
+    animation-direction: reverse;
+}
+
+@keyframes SNOW {
+    to {
+        transform: translateY(650px);
+    }
+}
+
+/* -----------Scroll_Bar----------- */
+
+.main-scroll {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    height: 100vh;
+    width: 100%;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(transparent, #2B6CB0);
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(transparent, #30ff00)
+}
+
+::-webkit-scrollbar-button {
+    display: none;
+}
+
+/* ------------Avatar_Badge----------- */
+.flashing {
+    animation: flashing 2s infinite;
+}
+
+@keyframes flashing {
+    0% {
+        background-color: #2F9A48;
+        box-shadow: 0 0 5px 2px rgba(47, 154, 72, 0.5);
+    }
+
+    50% {
+        background-color: #fff;
+        /*ffe066*/
+        box-shadow: none;
+    }
+
+    100% {
+        background-color: #2F9A48;
+        box-shadow: 0 0 5px 2px rgba(47, 154, 72, 0.5);
+    }
+}
