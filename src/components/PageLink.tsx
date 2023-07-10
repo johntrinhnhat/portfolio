@@ -1,7 +1,9 @@
 import { Box, Container, HStack } from "@chakra-ui/react";
-import { BsPerson, BsSoundwave } from "react-icons/Bs";
-import { AiOutlineThunderbolt } from "react-icons/ai";
 
+import { AiOutlineThunderbolt } from "react-icons/ai";
+import { IoPersonOutline } from "react-icons/io5";
+
+import { GiSoundWaves } from "react-icons/gi";
 import { SiMinutemailer } from "react-icons/si";
 import { GiMetalHand } from "react-icons/gi";
 // import { HashLink as Link } from "react-router-hash-link";
@@ -11,7 +13,7 @@ const PageLink = () => {
     <Container>
       <Box mx="3rem">
         <HStack mb="1rem" pl="5rem" gap={"2rem"}>
-          <BsPerson size="30px" />
+          <IoPersonOutline size="30px" />
           {/* <Link smooth to="#hero"> */}
           About
           {/* </Link> */}
@@ -35,7 +37,7 @@ const PageLink = () => {
           {/* </Link> */}
         </HStack>
         <HStack mb="1rem" pl="5rem" gap={"2rem"}>
-          <BsSoundwave size="30px" />
+          <GiSoundWaves size="30px" />
           {/* <Link to={"entertainment"}>Entertainment</Link> */}
         </HStack>
       </Box>
