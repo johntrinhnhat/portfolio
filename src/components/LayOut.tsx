@@ -12,6 +12,7 @@ import PortfolioGrid from "./PortGrid";
 import ContactForm from "./ContactFrom";
 import InfBox from "./InfBox";
 import WeatherBox from "./WeatherBox";
+import PageLink from "./PageLink";
 
 const LayOut = () => {
   return (
@@ -29,7 +30,7 @@ const LayOut = () => {
             <Container>
               <InfBox />
               <Divider my="2.5rem" />
-              {/* <PageLink /> */}
+              <PageLink />
               <Divider my="2.5rem" />
               <WeatherBox />
             </Container>
