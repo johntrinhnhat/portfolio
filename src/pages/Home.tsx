@@ -6,15 +6,15 @@ import {
   Divider,
   Box,
 } from "@chakra-ui/react";
-import Hero from "./Hero";
-import Services from "./ServiceGrid";
-import PortfolioGrid from "./PortGrid";
-import ContactForm from "./ContactFrom";
-import InfBox from "./InfBox";
-import WeatherBox from "./WeatherBox";
-import PageLink from "./PageLink";
+import Hero from "../components/Hero";
+import Services from "../components/ServiceGrid";
+import PortfolioGrid from "../components/PortGrid";
+import ContactForm from "../components/ContactFrom";
+import InfBox from "../components/InfBox";
+import WeatherBox from "../components/WeatherBox";
+import PageLink from "../components/PageLink";
 
-const LayOut = () => {
+const Home = () => {
   return (
     <>
       <Grid
@@ -49,4 +49,4 @@ const LayOut = () => {
   );
 };
 
-export default LayOut;
+export default Home;
