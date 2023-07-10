@@ -1,6 +1,6 @@
 import { VStack, Avatar, AvatarBadge, Box, Text } from "@chakra-ui/react";
-import profile from "../../../assets/profile.png";
-// import SocialMedia from "./SocialMedia";
+import profile from "./../assets/profile.png";
+import SocialMedia from "./SocialMedia";
 
 const InfBox = () => {
   return (
@@ -17,7 +17,7 @@ const InfBox = () => {
         <Text fontSize="24px">Khoi T.</Text>
         <Text fontSize="16px">Full Stack Web Developer</Text>
       </Box>
-      {/* <SocialMedia /> */}
+      <SocialMedia />
     </VStack>
   );
 };

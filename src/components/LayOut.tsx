@@ -10,6 +10,7 @@ import Hero from "./Hero";
 import Services from "./ServiceGrid";
 import PortfolioGrid from "./PortGrid";
 import ContactForm from "./ContactFrom";
+import InfBox from "./InfBox";
 
 const LayOut = () => {
   return (
@@ -25,7 +26,7 @@ const LayOut = () => {
         <Show above="lg">
           <GridItem position="fixed" area="aside" fontFamily={"Righteous"}>
             <Container>
-              {/* <InfBox /> */}
+              <InfBox />
               <Divider my="2.5rem" />
               {/* <PageLink /> */}
               <Divider my="2.5rem" />
