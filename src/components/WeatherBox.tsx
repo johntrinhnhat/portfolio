@@ -1,13 +1,13 @@
-import test1 from "./assets/test1.webp";
-import test2 from "./assets/test2.webp";
-import test3 from "./assets/test3.webp";
-import test4 from "./assets/test4.webp";
-import test5 from "./assets/test5.webp";
+import test1 from "../assets/test1.webp";
+import test2 from "../assets/test2.webp";
+import test3 from "../assets/test3.webp";
+import test4 from "../assets/test4.webp";
+import test5 from "../assets/test5.webp";
 
-import test7 from "./assets/test7.webp";
-import test8 from "./assets/test8.webp";
-import test9 from "./assets/test9.webp";
-import test10 from "./assets/test10.webp";
+import test7 from "../assets/test7.webp";
+import test8 from "../assets/test8.webp";
+import test9 from "../assets/test9.webp";
+import test10 from "../assets/test10.webp";
 
 import {
   Box,
@@ -21,11 +21,11 @@ import {
   VStack,
 } from "@chakra-ui/react";
 
-import { FaWind } from "react-icons/fa";
+import { GiWhirlwind } from "react-icons/gi";
 import { MdOutlineWaterDrop } from "react-icons/md";
 
 import useWeather from "../hooks/useWeather";
-import "../../../main.css";
+import "../index.css";
 import { useState, useEffect } from "react";
 
 const WeatherBox = () => {
@@ -98,7 +98,7 @@ const WeatherBox = () => {
               <VStack spacing="2">
                 <Container pt="2" w="150px" h="80px" textAlign={"center"}>
                   <Center>
-                    <FaWind />
+                    <GiWhirlwind />
                   </Center>
                   <Text>Wind</Text>
                   <Text mt="-2" fontSize="14px">
