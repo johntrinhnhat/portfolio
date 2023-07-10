@@ -83,3 +83,26 @@ html {
 ::-webkit-scrollbar-button {
     display: none;
 }
+
+/* ------------Avatar_Badge----------- */
+.flashing {
+    animation: flashing 2s infinite;
+}
+
+@keyframes flashing {
+    0% {
+        background-color: #2F9A48;
+        box-shadow: 0 0 5px 2px rgba(47, 154, 72, 0.5);
+    }
+
+    50% {
+        background-color: #fff;
+        /*ffe066*/
+        box-shadow: none;
+    }
+
+    100% {
+        background-color: #2F9A48;
+        box-shadow: 0 0 5px 2px rgba(47, 154, 72, 0.5);
+    }
+}
