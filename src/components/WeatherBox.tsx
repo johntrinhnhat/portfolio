@@ -105,7 +105,7 @@ const WeatherBox = () => {
                     {wind}m/s
                   </Text>
                 </Container>
-                <Container pt="2" w="150px" h="80px" textAlign={"center"}>
+                <Container pt="6" w="150px" h="80px" textAlign={"center"}>
                   <Center>
                     <MdOutlineWaterDrop />
                   </Center>

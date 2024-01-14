@@ -8,7 +8,7 @@ interface Props {
 
 const ServiceCard = ({ icon, heading, content }: Props) => {
   return (
-    <Card width="300px" height="250px" boxShadow="md">
+    <Card maxWidth="300px" height="250px" boxShadow="xl"  > 
       <CardBody>
         <VStack>
           <Icon boxSize="50px" as={icon} />

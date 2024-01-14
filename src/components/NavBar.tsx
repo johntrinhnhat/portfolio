@@ -8,7 +8,7 @@ const NavBar = () => {
       position={"fixed"}
       justify={"space-between"}
       width={"100%"}
-      p="2.5rem"
+      p="2rem"
       zIndex={"999"}
     >
       <Heading
@@ -18,7 +18,7 @@ const NavBar = () => {
       >
         J<span className="logo">T</span>
       </Heading>
-      <HStack gap="10px" textAlign={"center"}>
+      <HStack gap="1rem" pr="1rem">
         <Button bgColor={"blue.400"} rightIcon={<AiOutlineDownload />}>
           Download CV
         </Button>

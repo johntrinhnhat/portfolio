@@ -7,8 +7,8 @@ const Hero = () => {
     <>
       <Box
         id="hero"
-        mt={{ base: "10rem", lg: "-8rem" }}
-        visibility={"hidden"}
+        mt={{ base: "rem", lg: "-2rem" }}
+        // visibility={"hidden"}
       ></Box>
       <Flex position={"relative"}>
         <Image src={herocopy} boxSize={{ base: 400, md: 550, lg: 650 }} />

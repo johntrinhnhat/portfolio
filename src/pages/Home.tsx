@@ -18,20 +18,21 @@ const Home = () => {
   return (
     <>
       <Grid
-        pt={{ base: "0", lg: "8rem" }}
+        pt={{ base: "0", lg: "5rem" }}
         templateAreas={{
           base: `'main'`,
           lg: `'aside main'`,
         }}
         minHeight={{ base: "auto", lg: "100vh" }}
+        fontFamily={"Righteous"}
       >
         <Show above="lg">
-          <GridItem position="fixed" area="aside" fontFamily={"Righteous"}>
+          <GridItem position="fixed" area='aside' >
             <Container>
               <InfBox />
-              <Divider my="2.5rem" />
+              <Divider my="1.5rem" />
               <PageLink />
-              <Divider my="2.5rem" />
+              <Divider my="1.5rem" />
               <WeatherBox />
             </Container>
           </GridItem>

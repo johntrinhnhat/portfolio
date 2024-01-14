@@ -13,7 +13,7 @@ const InfBox = () => {
           borderColor="blue.50"
         />
       </Avatar>
-      <Box lineHeight={"15px"} textAlign={"center"} pt={"14px"}>
+      <Box lineHeight={"15px"} textAlign={"center"} pt={"20px"}>
         <Text fontSize="24px">Khoi T.</Text>
         <Text fontSize="16px">Full Stack Web Developer</Text>
       </Box>

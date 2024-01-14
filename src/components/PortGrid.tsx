@@ -20,7 +20,7 @@ const PortfolioGrid = () => {
       </Box>
       <SimpleGrid
         mt="2rem"
-        columns={{ sm: 1, md: 2, lg: 3 }}
+        columns={{ sm: 1, md: 2, lg: 2, '2xl': 3 }}
         gap={10}
         justifyContent={"space-around"}
       >

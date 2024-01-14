@@ -12,7 +12,7 @@ interface Props {
 const DiaDevider = ({ Diamond1, Diamond2, Diamond3, Diamond4 }: Props) => {
   return (
     <Center>
-      <HStack my="10rem">
+      <HStack my="6rem">
         <Diamond color={Diamond1} />
         <Diamond color={Diamond2} />
         <Diamond color={Diamond3} />
