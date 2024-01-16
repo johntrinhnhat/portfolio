@@ -78,7 +78,7 @@ const WeatherBox = () => {
           bgImage={images[imageIndex]}
           boxShadow="dark-lg"
           h="15rem"
-          my="2rem"
+          mt="-.5rem"
         >
           <div className="overlay"></div>
           <SimpleGrid columns={2} spacing={10}>
