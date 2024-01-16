@@ -16,7 +16,7 @@ const PageLink = () => {
 
   return (
     <Container>
-      <Box mx="4rem">
+      <Box mx={{lg: "4rem", "2xl": "2rem"}}>
         <HStack mb="1rem" pl={{lg: "5rem", '2xl': "9rem"}} gap={"2rem"} _hover={linkHoverStyle}>
           <IoPersonOutline size="25px" />
           <Link smooth to="#hero" >
