@@ -69,7 +69,7 @@ const WeatherBox = () => {
   const humidity = data?.main.humidity;
 
   if (error) return <p>{error.message}</p>;
-
+  
   return (
     <>
       <Skeleton isLoaded={!isLoading} height={"15rem"} borderRadius={"14px"}>
@@ -78,12 +78,12 @@ const WeatherBox = () => {
           fontFamily={"Righteous"}
           bgImage={images[imageIndex]}
           boxShadow="dark-lg"
-          h={{lg: "15.2rem", "2xl": "22rem"}}
-          mt={{lg: "-.5rem", "2xl": "2rem"}}
+          h={{lg: "15.2rem", "2xl": "17rem"}}
+          mt={{lg: "-.5rem", "2xl": "3rem"}}
         >
           <div className="overlay"></div>
-          <SimpleGrid columns={2} spacing={10}>
-            <Box mt={{lg:"6"}} p={{lg:"4", "2xl": "14"}}>
+          <SimpleGrid columns={2} spacing={10} p={{lg: "2rem"}} >
+            <Box>
               <Heading  size={{lg: "lg", "2xl": "xl"}}>{data?.name}</Heading>
               <Image
                 src={`http://openweathermap.org/img/w/${iconValue}.png`}
@@ -95,23 +95,23 @@ const WeatherBox = () => {
                 <span>Feels like {feelsLike}&#8451;</span>
               </Text>
             </Box>
-            <Box p={{lg:"5"}} mt={{lg:"3", "2xl":"12"}}>
+            <Box >
               <VStack spacing="2">
                 <Container pt="2" w="150px" h={{lg:"80px", "2xl": "100px"}} textAlign={"center"}>
                   <Center>
-                    <Icon as={GiWhirlwind} boxSize={{lg: '24px', "2xl": "36px"}}/>
+                    <Icon as={GiWhirlwind} boxSize={{lg: '24px', "2xl": "34px"}}/>
                   </Center>
-                  <Text fontSize={{"2xl": "24px"}}>Wind</Text>
-                  <Text mt="-2" fontSize={{lg: "14px", "2xl": "16px"}}>
+                  <Text fontSize={{"2xl": "22px"}}>Wind</Text>
+                  <Text mt={{lg:"-2", "2xl": "-3"}} fontSize={{lg: "14px", "2xl": "16px"}}>
                     {wind}m/s
                   </Text>
                 </Container>
                 <Container pt="6" w="150px" h="80px" textAlign={"center"}>
                   <Center>
-                    <Icon as={MdOutlineWaterDrop} boxSize={{lg:'24px', "2xl": "36px"}} />
+                    <Icon as={MdOutlineWaterDrop} boxSize={{lg:'24px', "2xl": "34px"}} />
                   </Center>
-                  <Text fontSize={{"2xl": "24px"}}>Humidity</Text>
-                  <Text mt="-2" fontSize={{lg: "14px", "2xl": "16px"}}>
+                  <Text fontSize={{"2xl": "22px"}}>Humidity</Text>
+                  <Text mt={{lg:"-2", "2xl": "-4"}} fontSize={{lg: "14px", "2xl": "16px"}}>
                     {humidity}%
                   </Text>
                 </Container>
