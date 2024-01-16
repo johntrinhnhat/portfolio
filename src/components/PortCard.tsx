@@ -18,7 +18,7 @@ interface Card {
 
 const PortfolioCard = ({ image, heading, content }: Card) => {
   return (
-    <Card>
+    <Card maxW='sm'>
       <CardBody>
         <Image
           objectFit="cover"
