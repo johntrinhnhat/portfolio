@@ -83,8 +83,8 @@ const WeatherBox = () => {
         >
           <div className="overlay"></div>
           <SimpleGrid columns={2} spacing={10}>
-            <Box mt={{lg:"6", '2xl':"4"}} p={{lg:"4", "2xl": "14"}}>
-              <Heading size={{lg: "lg", "2xl": "xl"}}>{data?.name}</Heading>
+            <Box mt={{lg:"6"}} p={{lg:"4", "2xl": "14"}}>
+              <Heading  size={{lg: "lg", "2xl": "xl"}}>{data?.name}</Heading>
               <Image
                 src={`http://openweathermap.org/img/w/${iconValue}.png`}
                 h={{lg:"70px", "2xl": "100px"}}
