@@ -24,7 +24,7 @@ const Hero = () => {
             fontSize={{ sm: "48px", lg: "60px" }}
             fontFamily={"Righteous"}
           >
-            CODING...
+            CODING<span className="dotloading"><span>.</span><span>.</span><span>.</span></span>
             <Box className="SNOW"></Box>
           </Heading>
 
