@@ -20,7 +20,7 @@ const NavBar = () => {
       </Heading>
       <HStack gap="1rem" pr="1rem">
         <Button bgColor={"blue.400"} rightIcon={<AiOutlineDownload />}>
-          Download CV
+          CV
         </Button>
         <ToggleColorMode />
       </HStack>
