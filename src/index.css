@@ -159,7 +159,7 @@ html {
   
   /* Styling for each dot */
   .dotloading span {
-    animation: dotLoading 1.5s infinite;
+    animation: dotLoading 3s infinite;
     opacity: 0;
     display: inline-block;
   }
