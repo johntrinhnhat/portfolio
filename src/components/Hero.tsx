@@ -7,7 +7,7 @@ const Hero = () => {
     <>
       <Box
         id="hero"
-        mt={{ base: "rem", lg: "-2rem" }}
+        mt={{ base: "5rem", lg: "-2rem" }}
         // visibility={"hidden"}
       ></Box>
       <Flex position={"relative"}>
@@ -16,7 +16,7 @@ const Hero = () => {
         <Box
           textAlign={"center"}
           position={"absolute"}
-          left={{ base: "12rem", md: "22rem", lg: "25rem" }}
+          left={{ base: "15.5rem", md: "22rem", lg: "25rem" }}
           top={{ base: "9rem", md: "12rem", lg: "15rem" }}
         >
           <Heading

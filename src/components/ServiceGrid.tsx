@@ -14,7 +14,7 @@ const Services = () => {
         <SimpleGrid
           columns={{ sm: 1, md: 2, lg: 2 }}
           gap="10"
-          ml={{ base: "4", md: "8", lg: "12", "2xl": "44" }}
+          ml={{ base: "16", md: "12", lg: "12", "2xl": "44" }}
         >
           <ServiceCard
             icon={RiCodeView}
