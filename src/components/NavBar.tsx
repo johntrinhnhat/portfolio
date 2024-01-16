@@ -13,8 +13,8 @@ const NavBar = () => {
     >
       <Heading
         fontFamily={"Righteous"}
-        fontSize={{ base: "40px", md: "50px" }}
-        pl="1rem"
+        fontSize={{ base: "40px", md: "50px", '2xl': "60px" }}
+        pl={{lg: "1rem", '2xl': '3rem'}}
       >
         J<span className="logo">T</span>
       </Heading>

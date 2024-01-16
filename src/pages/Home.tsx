@@ -18,7 +18,7 @@ const Home = () => {
   return (
     <>
       <Grid
-        pt={{ base: "0", lg: "5rem" }}
+        pt={{ base: "0", lg: "5rem", "2xl": "10rem" }}
         templateAreas={{
           base: `'main'`,
           lg: `'aside main'`,

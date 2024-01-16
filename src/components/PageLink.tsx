@@ -17,25 +17,25 @@ const PageLink = () => {
   return (
     <Container>
       <Box mx="4rem">
-        <HStack mb="1rem" pl="5rem" gap={"2rem"} _hover={linkHoverStyle}>
+        <HStack mb="1rem" pl={{lg: "5rem", '2xl': "9rem"}} gap={"2rem"} _hover={linkHoverStyle}>
           <IoPersonOutline size="25px" />
           <Link smooth to="#hero" >
             About
           </Link>
         </HStack>
-        <HStack mb="1rem" pl="5rem" gap={"2rem"} _hover={linkHoverStyle}>
+        <HStack mb="1rem" pl={{lg: "5rem", '2xl': "9rem"}} gap={"2rem"} _hover={linkHoverStyle}>
           <AiOutlineThunderbolt size="25px" />
           <Link smooth to="#services">
             Services
           </Link>
         </HStack>
-        <HStack mb="1rem" pl="5rem" gap={"2rem"} _hover={linkHoverStyle}>
+        <HStack mb="1rem" pl={{lg: "5rem", '2xl': "9rem"}} gap={"2rem"} _hover={linkHoverStyle}>
           <GiMetalHand size="25px" />
           <Link smooth to="#portfolio">
             Portfolio
           </Link>
         </HStack>
-        <HStack mb="1rem" pl="5rem" gap={"2rem"} _hover={linkHoverStyle}>
+        <HStack mb="1rem" pl={{lg: "5rem", '2xl': "9rem"}} gap={"2rem"} _hover={linkHoverStyle}>
           <SiMinutemailer size="25px" />
           <Link smooth to="#contact">
             Contact

@@ -14,6 +14,7 @@ import {
   Center,
   Container,
   Heading,
+  Icon,
   Image,
   SimpleGrid,
   Skeleton,
@@ -71,46 +72,46 @@ const WeatherBox = () => {
 
   return (
     <>
-      <Skeleton isLoaded={!isLoading} height={"15rem"}>
+      <Skeleton isLoaded={!isLoading} height={"15rem"} borderRadius={"14px"}>
         <Container
           className="weather_box"
           fontFamily={"Righteous"}
           bgImage={images[imageIndex]}
           boxShadow="dark-lg"
-          h="15rem"
-          mt="-.5rem"
+          h={{lg: "15.2rem", "2xl": "22rem"}}
+          mt={{lg: "-.5rem", "2xl": "2rem"}}
         >
           <div className="overlay"></div>
           <SimpleGrid columns={2} spacing={10}>
-            <Box p="8">
-              <Heading size="lg">{data?.name}</Heading>
+            <Box mt={{lg:"6", '2xl':"4"}} p={{lg:"4", "2xl": "14"}}>
+              <Heading size={{lg: "lg", "2xl": "xl"}}>{data?.name}</Heading>
               <Image
                 src={`http://openweathermap.org/img/w/${iconValue}.png`}
-                h="70px"
+                h={{lg:"70px", "2xl": "100px"}}
               />
               <Heading>{temp}&#8451;</Heading>
-              <Text fontSize="13px">
-                {maxTemp}&deg;/{minTemp}&deg;{" "}
-                <span>Feels like: {feelsLike}</span>
+              <Text fontSize={{lg: "13px", "2xl": "16px"}}>
+                {maxTemp}&#8451;/{minTemp}&#8451;{" "}
+                <span>Feels like {feelsLike}&#8451;</span>
               </Text>
             </Box>
-            <Box p="5" mt="3">
+            <Box p={{lg:"5"}} mt={{lg:"3", "2xl":"12"}}>
               <VStack spacing="2">
-                <Container pt="2" w="150px" h="80px" textAlign={"center"}>
+                <Container pt="2" w="150px" h={{lg:"80px", "2xl": "100px"}} textAlign={"center"}>
                   <Center>
-                    <GiWhirlwind />
+                    <Icon as={GiWhirlwind} boxSize={{lg: '24px', "2xl": "36px"}}/>
                   </Center>
-                  <Text>Wind</Text>
-                  <Text mt="-2" fontSize="14px">
+                  <Text fontSize={{"2xl": "24px"}}>Wind</Text>
+                  <Text mt="-2" fontSize={{lg: "14px", "2xl": "16px"}}>
                     {wind}m/s
                   </Text>
                 </Container>
                 <Container pt="6" w="150px" h="80px" textAlign={"center"}>
                   <Center>
-                    <MdOutlineWaterDrop />
+                    <Icon as={MdOutlineWaterDrop} boxSize={{lg:'24px', "2xl": "36px"}} />
                   </Center>
-                  <Text>Humidity</Text>
-                  <Text mt="-2" fontSize="14px">
+                  <Text fontSize={{"2xl": "24px"}}>Humidity</Text>
+                  <Text mt="-2" fontSize={{lg: "14px", "2xl": "16px"}}>
                     {humidity}%
                   </Text>
                 </Container>

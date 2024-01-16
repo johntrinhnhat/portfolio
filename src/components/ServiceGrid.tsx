@@ -12,7 +12,7 @@ const Services = () => {
       <div id="services" className="service_grid">
         <DiaDivider Diamond1="#2B6CB0" />
         <SimpleGrid
-          columns={{ sm: 1, md: 2, lg: 2 }}
+          columns={{ sm: 1, md: 2, lg: 2, "2xl": 3 }}
           gap="10"
           ml={{ base: "16", md: "12", lg: "12", "2xl": "44" }}
         >
