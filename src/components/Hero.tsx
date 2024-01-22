@@ -12,13 +12,13 @@ const Hero = () => {
         // visibility={"hidden"}
       ></Box>
       <Flex position={"relative"} mb="6rem">
-        <Image src={herocopy} boxSize={{ base: 350, md: 550, lg: 650 }} />
+        <Image src={herocopy} boxSize={{ base: 370, md: 550, lg: 650 }} />
         <Box className="SNOW"></Box>
         <Box
           textAlign={"center"}
           position={"absolute"}
-          left={{ base: "14rem", md: "22rem", lg: "25rem" }}
-          top={{ base: "7.6rem", md: "12rem", lg: "15rem" }}
+          left={{ base: "14.6rem", md: "22rem", lg: "25rem" }}
+          top={{ base: "8rem", md: "12rem", lg: "15rem" }}
         >
           <Heading
             color="blue.600"
