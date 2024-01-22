@@ -22,7 +22,7 @@ const Hero = () => {
         >
           <Heading
             color="blue.600"
-            fontSize={{ base:"22px", sm: "48px", lg: "60px" }}
+            fontSize={{ base:"24px", sm: "48px", lg: "60px" }}
             fontFamily={"Righteous"}
             mb={{base: "-.01rem"}}
           >
@@ -31,7 +31,7 @@ const Hero = () => {
           </Heading>
 
           <Text
-            fontSize={{ base: ".5rem", md: ".8rem", lg: "1rem" }}
+            fontSize={{ base: ".6rem", md: ".8rem", lg: "1rem" }}
             position={"absolute"}
             fontFamily={"Righteous"}
           >
