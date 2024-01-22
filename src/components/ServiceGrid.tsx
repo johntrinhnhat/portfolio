@@ -14,7 +14,7 @@ const Services = () => {
           my="6rem"
           columns={{ sm: 1, md: 2, lg: 2, "2xl": 3 }}
           gap="10"
-          px={{ base: "8", md: "12", lg: "12", "2xl": "44" }}
+          px={{ base: "10", md: "12", lg: "12", "2xl": "44" }}
         >
           <ServiceCard
             icon={RiCodeView}
