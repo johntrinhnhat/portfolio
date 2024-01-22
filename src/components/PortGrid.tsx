@@ -11,7 +11,7 @@ const PortfolioGrid = () => {
         <Box
           id="portfolio"
           w={{ base: "100%" }}
-          pl={{ md: "1rem", lg: "1rem", "2xl": "9rem" }}
+          pl={{ base: ".5rem", md: "1rem", lg: "1rem", "2xl": "9rem" }}
           mb="1rem"
         >
           <select className="form-select">
@@ -25,7 +25,7 @@ const PortfolioGrid = () => {
           columns={{ sm: 1, md: 2, lg: 2, "2xl": 3 }}
           gap={10}
           justifyContent={"space-between"}
-          ml={{ md:"1rem", lg: "1rem", "2xl": "9rem" }}
+          ml={{ base:".5rem ", md:"1rem", lg: "1rem", "2xl": "9rem" }}
         >
           {portfolio.map((portfolios) => (
             <PortfolioCard
