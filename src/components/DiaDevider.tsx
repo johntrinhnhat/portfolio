@@ -12,7 +12,7 @@ interface Props {
 const DiaDevider = ({ Diamond1, Diamond2, Diamond3, Diamond4 }: Props) => {
   return (
     <Center>
-      <HStack my="6rem">
+      <HStack>
         <Diamond color={Diamond1} />
         <Diamond color={Diamond2} />
         <Diamond color={Diamond3} />
@@ -21,7 +21,6 @@ const DiaDevider = ({ Diamond1, Diamond2, Diamond3, Diamond4 }: Props) => {
     </Center>
   );
 };
-
 export default DiaDevider;
 
 // #2B6CB0

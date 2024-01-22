@@ -9,9 +9,9 @@ import DiaDivider from "./DiaDevider";
 const Services = () => {
   return (
     <>
-      <div id="services" className="service_grid">
-        <DiaDivider Diamond1="#2B6CB0" />
+      <div id="services">
         <SimpleGrid
+          my="6rem"
           columns={{ sm: 1, md: 2, lg: 2, "2xl": 3 }}
           gap="10"
           ml={{ base: "16", md: "12", lg: "12", "2xl": "44" }}
@@ -35,6 +35,9 @@ const Services = () => {
         Aperiam, nostrum! Repellendus repellat consequuntur totam."
           />
         </SimpleGrid>
+        <div id="portfolio">
+          <DiaDivider Diamond1="#2B6CB0" Diamond2="#2B6CB0" />
+        </div>
       </div>
     </>
   );

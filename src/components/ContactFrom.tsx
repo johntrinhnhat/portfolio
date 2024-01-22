@@ -4,11 +4,8 @@ import DiaDevider from "./DiaDevider";
 const ContactForm = () => {
   return (
     <>
-      <Box id="contact">
-        <DiaDevider Diamond1="#2B6CB0" Diamond2="#2B6CB0" Diamond3="#2B6CB0" />
-      </Box>
-      <Center id="contact">
-        <form className="form w-50">
+      <Center my="6rem" px="4rem">
+        <form className="form w-100">
           <div className="mb-3">
             <label htmlFor="" className="form-label">
               Name
@@ -36,6 +33,7 @@ const ContactForm = () => {
         Diamond3="#2B6CB0"
         Diamond4="#2B6CB0"
       />
+      <Box mt='3rem'></Box>
     </>
   );
 };

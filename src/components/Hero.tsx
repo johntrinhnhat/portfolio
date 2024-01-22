@@ -1,4 +1,5 @@
 import { Box, Flex, Heading, Image, Text } from "@chakra-ui/react";
+import DiaDivider from "./DiaDevider";
 
 import herocopy from "../assets/herocopy.webp";
 
@@ -7,10 +8,10 @@ const Hero = () => {
     <>
       <Box
         id="hero"
-        mt={{ base: "5rem", lg: "-2rem" }}
+        mt={{ base: "5rem", lg: "-5rem" }}
         // visibility={"hidden"}
       ></Box>
-      <Flex position={"relative"}>
+      <Flex position={"relative"} mb="6rem">
         <Image src={herocopy} boxSize={{ base: 400, md: 550, lg: 650 }} />
         <Box className="SNOW"></Box>
         <Box
@@ -37,6 +38,7 @@ const Hero = () => {
           </Text>
         </Box>
       </Flex>
+      <DiaDivider Diamond1="#2B6CB0" />
     </>
   );
 };
