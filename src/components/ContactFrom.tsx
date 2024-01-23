@@ -10,19 +10,19 @@ const ContactForm = () => {
             <label htmlFor="" className="form-label">
               Name
             </label>
-            <input type="text" className="form-control" />
+            <input type="text" className="form-control bg-dark bg-gradient bg-opacity-10 text-white" />
           </div>
           <div className="mb-3">
             <label htmlFor="" className="form-label">
               Email
             </label>
-            <input type="email" className="form-control" />
+            <input type="email" className="form-control bg-dark bg-gradient bg-opacity-10 text-white" />
           </div>
           <div className="mb-3">
             <label htmlFor="" className="form-label">
               Message
             </label>
-            <textarea className="form-control" id="" rows={15}></textarea>
+            <textarea className="form-control bg-dark bg-gradient bg-opacity-10 text-white" id="" rows={15}></textarea>
           </div>
           <button className="btn btn-primary">Submit</button>
         </form>
